@@ -39,7 +39,7 @@ export default function Home() {
           <span> GitHub: </span>
           <a
             target="_blank"
-            href="https://github.com/olganovichkova/DubSeq"
+            href="https://github.com/olganovichkova/MyPortfolio"
             className="underline"
           >
             Portfolio
@@ -54,10 +54,7 @@ export default function Home() {
 
         <div className="mt-8 grid lg:grid-cols-3 gap-10">
           <div className="card hover:shadow-lg">
-            <a
-              target="_blank"
-              href="https://github.com/olganovichkova/Adopt-me"
-            >
+            <a target="_blank" href="https://adopt-me-tau.vercel.app/">
               <img
                 src="images/adopt-me.png"
                 alt="3dchess"
