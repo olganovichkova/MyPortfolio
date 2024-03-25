@@ -54,6 +54,49 @@ export default function Home() {
 
         <div className="mt-8 grid lg:grid-cols-3 gap-10">
           <div className="card hover:shadow-lg">
+            <a
+              target="_blank"
+              href="https://geosciencesamplesdb.aws.cose.isu.edu/"
+            >
+              <img
+                src="images/geosciencesamplesdb.png"
+                alt="geosciencesampledb"
+                className="w-full h-32 sm:h-48 object-cover"
+              />
+            </a>
+            <div className="m-4">
+              <span className="font-bold">Geoscience Sample DB</span>
+              <span className="block text-gray-500 text-sm">
+                <svg
+                  className="w-4 inline-block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z"
+                  />
+                </svg>
+
+                <span> GitHub: </span>
+                <a
+                  target="_blank"
+                  href="https://github.com/olganovichkova/isu-geoscience-inventory-client"
+                  className="underline"
+                >
+                  Acquire
+                </a>
+              </span>
+            </div>
+            <div className="badge">
+              <span>TypeScript</span>
+            </div>
+          </div>
+          <div className="card hover:shadow-lg">
             <a target="_blank" href="https://adopt-me-tau.vercel.app/">
               <img
                 src="images/adopt-me.png"
