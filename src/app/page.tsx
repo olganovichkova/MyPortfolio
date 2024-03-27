@@ -88,7 +88,7 @@ export default function Home() {
                   href="https://github.com/olganovichkova/isu-geoscience-inventory-client"
                   className="underline"
                 >
-                  Acquire
+                  Geoscience Sample DB
                 </a>
               </span>
             </div>
